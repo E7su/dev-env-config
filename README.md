@@ -55,4 +55,7 @@ airflow list_tasks dag_id
 
 # list all the DAGs
 airflow list_dags
+
+# run subsections of a DAG for a specified date rang
+airflow backfill dag_id
 ```

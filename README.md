@@ -66,7 +66,7 @@ INSERT INTO pika_scheme.pika_table VALUES ('false')
 export AIRFLOW_HOME=~/airflow
 
 # install from pypi using pip
-pip install airflow
+pip install airflow   
 
 # initialize the database
 airflow initdb
@@ -98,3 +98,27 @@ airflow backfill dag_id -s 28.10.2016 -e 28.10.2016
 # individual tasks can be tested also
 airflow test HelloWorld task_1 2016-04-15
 ```
+# Ooops
+
+                                        ____/ (  (    )   )  \___
+                                       /( (  (  )   _    ))  )   )\
+                                     ((     (   )(    )  )   (   )  )
+                                   ((/  ( _(   )   (   _) ) (  () )  )
+                                  ( (  ( (_)   ((    (   )  .((_ ) .  )_
+                                 ( (  )    (      (  )    )   ) . ) (   )
+                                (  (   (  (   ) (  _  ( _) ).  ) . ) ) ( )
+                                ( (  (   ) (  )   (  ))     ) _)(   )  )  )
+                               ( (  ( \ ) (    (_  ( ) ( )  )   ) )  )) ( )
+                                (  (   (  (   (_ ( ) ( _    )  ) (  )  )   )
+                               ( (  ( (  (  )     (_  )  ) )  _)   ) _( ( )
+                                ((  (   )(    (     _    )   _) _(_ (  (_ )
+                                 (_((__(_(__(( ( ( |  ) ) ) )_))__))_)___)
+                                 ((__)        \\||lll|l||///          \_))
+                                          (   /(/ (  )  ) )\   )
+                                        (    ( ( ( | | ) ) )\   )
+                                         (   /(| / ( )) ) ) )) )
+                                       (     ( ((((_(|)_)))))     )
+                                        (      ||\(|(|)|/||     )
+                                      (        |(||(||)||||        )
+                                        (     //|/l|||)|\\ \     )
+                                      (/ / //  /|//||||\\  \ \  \ _)

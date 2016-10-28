@@ -46,6 +46,11 @@ sudo -u postgres psql postgres
 alter user postgres with password 'postgres';
 ```
 
+## INSERT
+```
+INSERT INTO pika_scheme.pika_table VALUES ('false')
+```
+
 #Airflow
 ```
                             ____________       _____________

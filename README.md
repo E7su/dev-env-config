@@ -88,7 +88,7 @@ airflow list_tasks dag_id
 airflow list_dags
 
 # run subsections of a DAG for a specified date rang
-airflow backfill dag_id
+airflow backfill dag_id -s 28.10.2016 -e 28.10.2016
 
 # individual tasks can be tested also
 airflow test HelloWorld task_1 2016-04-15

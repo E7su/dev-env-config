@@ -37,7 +37,7 @@
 ```
 ## Сopy directory from the server to the local computer
 ```
-scp root@localhost:/home/user/tmp/dir .
+scp -r root@localhost:/home/user/tmp/dir .
 ```
 
 #Elm

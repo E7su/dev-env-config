@@ -88,7 +88,7 @@ elm package install elm-lang/html
                                       /  \| /  \ /   |/  / _\ | 
                                       \__/| \__/ \__ |\_ \__  |
 ```
-## Create group without password for OS X
+## Create group without password on OS X
 ```
 sudo visudo -s
 ```

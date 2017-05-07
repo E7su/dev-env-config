@@ -88,6 +88,18 @@ elm package install elm-lang/html
                                       /  \| /  \ /   |/  / _\ | 
                                       \__/| \__/ \__ |\_ \__  |
 ```
+## Create group without password for OS X
+```
+sudo visudo -s
+```
+```
+%docker         ALL=(ALL)          NOPASSWD: ALL
+```
+```
+sudo visudo -c
+sudo dscl . append /Groups/wheel GroupMembership whale
+```
+
 ## Install Docker on Debian Jessie  
 ```
 apt-get update  
